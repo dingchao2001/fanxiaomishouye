@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>IconFont</title>
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="iconfont.css">
+</head>
+<body>
+    <div class="main">
+        <h1>IconFont 图标</h1>
+        <ul class="icon_lists clear">
+            
+                <li>
+                <i class="icon iconfont">&#xf0064;</i>
+                    <div class="name">音乐</div>
+                    <div class="code">&amp;#xf0064;</div>
+                    <div class="fontclass">.yinle</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xf0068;</i>
+                    <div class="name">节日</div>
+                    <div class="code">&amp;#xf0068;</div>
+                    <div class="fontclass">.jieri</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xf0069;</i>
+                    <div class="name">可爱</div>
+                    <div class="code">&amp;#xf0069;</div>
+                    <div class="fontclass">.keai</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xf006a;</i>
+                    <div class="name">计时器</div>
+                    <div class="code">&amp;#xf006a;</div>
+                    <div class="fontclass">.jishiqi</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xf006d;</i>
+                    <div class="name">项链</div>
+                    <div class="code">&amp;#xf006d;</div>
+                    <div class="fontclass">.xianglian</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xf0088;</i>
+                    <div class="name">雨伞</div>
+                    <div class="code">&amp;#xf0088;</div>
+                    <div class="fontclass">.yusan</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xf0089;</i>
+                    <div class="name">饮料</div>
+                    <div class="code">&amp;#xf0089;</div>
+                    <div class="fontclass">.yinliao</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xf009a;</i>
+                    <div class="name">高跟鞋</div>
+                    <div class="code">&amp;#xf009a;</div>
+                    <div class="fontclass">.gaogenxie</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xf0092;</i>
+                    <div class="name">照相机</div>
+                    <div class="code">&amp;#xf0092;</div>
+                    <div class="fontclass">.zhaoxiangji</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xf00b2;</i>
+                    <div class="name">正确</div>
+                    <div class="code">&amp;#xf00b2;</div>
+                    <div class="fontclass">.zhengque</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xf00b3;</i>
+                    <div class="name">错误</div>
+                    <div class="code">&amp;#xf00b3;</div>
+                    <div class="fontclass">.cuowu</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xf00b4;</i>
+                    <div class="name">禁止</div>
+                    <div class="code">&amp;#xf00b4;</div>
+                    <div class="fontclass">.jinzhi</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xf00b5;</i>
+                    <div class="name">提醒</div>
+                    <div class="code">&amp;#xf00b5;</div>
+                    <div class="fontclass">.tixing</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xf00b6;</i>
+                    <div class="name">提示</div>
+                    <div class="code">&amp;#xf00b6;</div>
+                    <div class="fontclass">.tishi</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xf00b7;</i>
+                    <div class="name">警告</div>
+                    <div class="code">&amp;#xf00b7;</div>
+                    <div class="fontclass">.jinggao</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xf00bc;</i>
+                    <div class="name">剪切</div>
+                    <div class="code">&amp;#xf00bc;</div>
+                    <div class="fontclass">.jianqie</div>
+                </li>
+            
+        </ul>
+
+
+        <div class="helps">
+            第一步：使用font-face声明字体
+            <pre>
+@font-face {font-family: 'iconfont';
+    src: url('iconfont.eot'); /* IE9*/
+    src: url('iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('iconfont.woff') format('woff'), /* chrome、firefox */
+    url('iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+</pre>
+第二步：定义使用iconfont的样式
+            <pre>
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+</pre>
+第三步：挑选相应图标并获取字体编码，应用于页面
+<pre>
+&lt;i class="iconfont"&gt;&amp;#x33;&lt;/i&gt;
+</pre>
+        </div>
+
+    </div>
+</body>
+</html>
